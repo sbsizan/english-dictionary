@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    border-radius: none;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: salmon;
+    color: rgb(54, 126, 48);
+}
+.container{
+    background: rgba(255, 255, 255, .4);
+    padding: 20px;
+    border-radius: 14px;
+    width: 60%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+}
+.header_title{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+#input{
+    width: 80%;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+#instruction{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 12px;
+}
+.meaning-section p{
+    margin-bottom: 12px;
+}
+.meaning-section p #m{
+    padding-left: 12px;
+}
